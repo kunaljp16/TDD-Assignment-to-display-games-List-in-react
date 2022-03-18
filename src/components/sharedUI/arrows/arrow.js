@@ -1,4 +1,3 @@
-import React from "react";
 import './arrow.scss';
 
 function Arrow(props) {

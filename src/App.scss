@@ -1,6 +1,8 @@
+@import "./assets/scss/_normalize.scss";
+@import "./assets/fonts/_daxlineFontFace.scss";
+@import "./assets/scss/_colors.scss";
 
-@import url('./assets/scss/_normalize.scss'); 
-@import url('./assets/fonts/_daxlineFontFace.scss');
-@import url('./assets/scss/_colors.scss');
-
-
+.headerWrapper {
+  border-bottom: 1px solid $lightGray3_rgba;
+  margin: 0 21px;
+}
