@@ -1,0 +1,60 @@
+@import "./../../../assets/scss/colors";
+
+.customRadio {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+
+  & + label {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    margin: 0 0 25px 0;
+    padding: 0 0 0 19px;
+
+    span {
+      margin-left: 31px;
+      color: $lightGray1_rgba;
+      font-style: normal;
+      font-weight: 300;
+      vertical-align: -webkit-baseline-middle;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: -4px;
+      left: 0;
+      width: 28px;
+      height: 28px;
+    }
+
+    &::before {
+      box-shadow: inset 0 0 0 1rem $navyBlue;
+      border: 1px solid $lightGray2_rgba;
+    }
+  }
+
+  &:focus,
+  &:hover,
+  &:checked {
+    & + label::before {
+      box-shadow: inset 0 0 0 7px $navyBlue;
+    }
+  }
+
+  &:checked {
+    & + label::before {
+      background-color: $pink1;
+      color: $white;
+    }
+  }
+
+  & + label {
+    &::before {
+      border-radius: 50%;
+    }
+  }
+}
