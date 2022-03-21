@@ -1,5 +1,5 @@
 import { shallow } from "enzyme";
-import P from "../../../../atomicDesignComponents/Atoms/p/p";
+import P from "./../atomicDesignComponents/atoms/p/p";
 
 describe("P", () => {
   it("shouldRenderP", () => {

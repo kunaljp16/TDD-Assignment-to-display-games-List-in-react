@@ -1,5 +1,5 @@
 import { shallow, mount } from "enzyme";
-import Arrow from "../atomicDesignComponents/sharedUI/arrows/arrow";
+import Arrow from "./../atomicDesignComponents/atoms/arrows/arrow";
 
 describe("Arrow component", () => {
   it("should render i element", () => {
