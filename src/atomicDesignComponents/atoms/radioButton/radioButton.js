@@ -10,10 +10,10 @@ function RadioButton(props) {
     <div>
       <input
         type="radio"
-        className="customRadio"
+        className="radioButton"
         name={props.name}
         id={props.value}
-        checked={false}
+        checked={props.isChecked}
         onChange={radioChangeFn}
       />
       <label htmlFor={props.value}>
