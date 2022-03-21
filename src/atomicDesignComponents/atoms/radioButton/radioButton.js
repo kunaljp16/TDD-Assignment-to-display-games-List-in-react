@@ -1,6 +1,6 @@
-import "./radioInput.scss";
+import "./radioButton.scss";
 
-function RadioInput(props) {
+function RadioButton(props) {
   const radioChangeFn = (e) => {
     const { id } = e.currentTarget;
     props.radioChangeHandler(id);
@@ -23,4 +23,4 @@ function RadioInput(props) {
   );
 }
 
-export default RadioInput;
+export default RadioButton;
