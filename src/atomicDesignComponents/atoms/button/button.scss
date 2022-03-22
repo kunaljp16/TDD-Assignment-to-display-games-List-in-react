@@ -1,0 +1,17 @@
+@import "./../../../../assets/scss/colors";
+
+.button {
+  display: block;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  background: $lightGreen1;
+  background: linear-gradient(90deg, $lightGreen1 0%, $lightGreen1_rgba 100%);
+  box-shadow: 0px 2px 4px $black1_rgba;
+  border-radius: 4px;
+  color: $white;
+  border: none;
+  padding: 12px 16px 8px;
+  cursor: pointer;
+}
