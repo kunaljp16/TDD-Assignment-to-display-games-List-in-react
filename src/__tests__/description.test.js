@@ -1,17 +1,15 @@
-import { shallow, mount } from "enzyme";
-import Description from "./../atomicDesignComponents/molecules/description/description";
+import { shallow } from "enzyme";
+import Description from "./../atomicDesignComponents/organisms/description/description";
 
 describe("Description", () => {
-  const wrapper = shallow(<Description />);
+  it("should Render Description", () => {
+    const wrapper = shallow(<Description />);
+    console.log(wrapper.debug());
 
-  it("should Render Paragraph For P, H5 and P", () => {
-    const paraOne = wrapper.find("P").first();
-    expect(paraOne.exists()).toBe(true);
+    const itemImage = wrapper.find("ItemImage");
+    expect(itemImage).toHaveLength(1);
 
-    const heading = wrapper.find("H5").first();
-    expect(heading.exists()).toBe(true);
-
-    const paraTwo = wrapper.find("P").at(1);
-    expect(paraTwo.exists()).toBe(true);
+    const description = wrapper.find("Description");
+    expect(description).toHaveLength(1);
   });
 });
