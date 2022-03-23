@@ -1,23 +1,18 @@
 import React, { useState } from "react";
-
-import useFetchData from "./../../hooks/useFetchData";
 import { radioOption } from "./../../interface/radioOption";
 import { gameObjInterface } from "./../../interface/gameObjInterface";
-
-import Header from "../molecules/header/header";
+import Header from "./../molecules/header/header";
 import ListGroup from "./../template/listGroup/listGroup";
+import JSONData from "./../../data/data.json";
 
 function Games() {
-  const { data, loading } = useFetchData("./../../module/test-data.json");
   let [dropdownStatus, setDropDownStatus] = useState(radioOption.character);
-
   let filterGameArray = [];
   let gameItemArray = [];
   let gameObj = {};
-
-  // const getDropdownValue = function (value) {
-  //   return setDropDownStatus(value);
-  // };
+  const getDropdownValue = function (value) {
+    return setDropDownStatus(value);
+  };
 
   const iterateGames = (obj) => {
     const iterate = (obj) => {
@@ -45,6 +40,7 @@ function Games() {
           iterate(obj[key]);
         }
       });
+
       if (
         gameObj.displayName != null &&
         gameObj.image != null &&
@@ -55,26 +51,22 @@ function Games() {
         gameObj = {};
       }
     };
-    iterate(data);
+    iterate(JSONData);
   };
 
-  iterateGames(data);
+  iterateGames(JSONData);
 
-  //filter by min to max stake
   if (dropdownStatus === radioOption.minToMaxStake) {
     filterGameArray = gameItemArray.sort((a, b) => {
       return a.minimumStake - b.minimumStake;
     });
   }
 
-  //filter by max to min stake
   if (dropdownStatus === radioOption.maxToMinStake) {
     filterGameArray = gameItemArray.sort((a, b) => {
       return b.minimumStake - a.minimumStake;
     });
   }
-
-  //filter by character
   if (dropdownStatus === radioOption.character) {
     filterGameArray = gameItemArray.sort(function (a, b) {
       return a[gameObjInterface.displayName] > b[gameObjInterface.displayName]
@@ -88,7 +80,7 @@ function Games() {
   return (
     <div>
       <Header />
-      <ListGroup gameData={filterGameArray} />
+      <ListGroup gameData={gameItemArray} />
     </div>
   );
 }
