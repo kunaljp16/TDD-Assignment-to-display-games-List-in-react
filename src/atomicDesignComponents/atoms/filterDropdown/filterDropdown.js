@@ -13,7 +13,7 @@ function Dropdown(props) {
   return (
     <div className="positionRelative">
       <button
-        class={isPanelOpen ? "expandedButton button" : "button"}
+        class={isPanelOpen ? "expandedButton filterButton" : "filterButton"}
         onClick={togglePanelHandler}
       >
         <Arrow direction={isPanelOpen ? "up" : "down"} />

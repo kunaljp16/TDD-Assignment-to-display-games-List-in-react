@@ -6,13 +6,13 @@ describe("ListGroup", () => {
   const gameObjData = [
     {
       displayName: "Lucky Wizard",
-      image: "/cms/5bab9d950eb3580fac83392e/Icon_320and250_LuckyWizard.jpg",
+      image: "Icon_320and250_LuckyWizard.jpg",
       provider: "RedTiger",
       minimumStake: "0.1",
     },
     {
       displayName: "Greek Gods",
-      image: "/cms/5de91d2a91253e002efe72f7/icon-320and250_GreekGods.jpg",
+      image: "icon-320and250_GreekGods.jpg",
       provider: "Pragmatic",
       minimumStake: "0.25",
     },

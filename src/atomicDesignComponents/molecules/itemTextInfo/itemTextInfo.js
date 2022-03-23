@@ -1,6 +1,6 @@
 import P from "../../atoms/p/p";
 import H5 from "../../atoms/h5/h5";
-import "./ItemTextInfo.scss";
+import "./itemTextInfo.scss";
 
 function ItemTextInfo(props) {
   return (

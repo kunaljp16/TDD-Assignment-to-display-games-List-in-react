@@ -4,8 +4,8 @@ import "./listItem.scss";
 
 function ListItem(props) {
   return (
-    <div className="listItem">
-      <div className="itemInnerWrapper">
+    <div className="listItemWrapper" role="listitem">
+      <div className="listItem">
         <Description gameData={props.gameData} />
         <Button text="PLAY" />
       </div>

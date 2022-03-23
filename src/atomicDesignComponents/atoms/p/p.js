@@ -1,7 +1,7 @@
 import "./p.scss";
 
 function P(props) {
-  return <p>{props.text}</p>;
+  return <p className="itemTitle">{props.text}</p>;
 }
 
 export default P;
