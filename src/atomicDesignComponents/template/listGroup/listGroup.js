@@ -1,4 +1,4 @@
-import ListItem from "./../listItem/listItem";
+import ListItem from "../../organisms/listItem/listItem";
 import "./listGroup.scss";
 
 function ListGroup(props) {
@@ -18,8 +18,8 @@ function ListGroup(props) {
   ];
   return (
     <div className="listGroup" role="list">
-      {gameData.map(function (data) {
-        return <ListItem gameData={data} />;
+      {gameData.map(function (data, index) {
+        return <ListItem gameData={data} key={index} />;
       })}
     </div>
   );

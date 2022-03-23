@@ -1,4 +1,4 @@
-import { shallow, mount } from "enzyme";
+import { shallow } from "enzyme";
 import ItemTextInfo from "./../atomicDesignComponents/molecules/itemTextInfo/itemTextInfo";
 
 describe("ItemTextInfo", () => {

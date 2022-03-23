@@ -1,5 +1,5 @@
 import { shallow } from "enzyme";
-import ListGroup from "./../atomicDesignComponents/organisms/listGroup/listGroup";
+import ListGroup from "./../atomicDesignComponents/template/listGroup/listGroup";
 import ListItem from "./../atomicDesignComponents/organisms/listItem/listItem";
 
 describe("ListGroup", () => {

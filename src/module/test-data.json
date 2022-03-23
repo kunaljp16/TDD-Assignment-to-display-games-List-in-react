@@ -1,0 +1,384 @@
+[
+  {
+    "LuckyWizard": {
+      "name": "LuckyWizard",
+      "displayName": "Lucky Wizard",
+      "playURL": "/games/luckywizard/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/luckywizard",
+      "currencyData": {
+        "CHF": {
+          "noDesk": true,
+          "noMob": true
+        },
+        "EUR": {
+          "minimumStake": 0.1
+        },
+        "GBP": {
+          "minimumStake": 0.1
+        },
+        "SEK": {
+          "minimumStake": 1.0
+        },
+        "PLN": {},
+        "JPY": {},
+        "INR": {},
+        "NZD": {
+          "minimumStake": 0.1
+        },
+        "CAD": {},
+        "HUF": {}
+      },
+      "volatility": ["High"],
+      "provider": ["RedTiger"]
+    },
+    "GreekGods": {
+      "name": "GreekGods",
+      "displayName": "Greek Gods",
+      "playURL": "/games/greekgods/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/greekgods",
+      "currencyData": {
+        "EUR": {
+          "minimumStake": 0.25
+        },
+        "GBP": {
+          "minimumStake": 0.25
+        },
+        "SEK": {
+          "minimumStake": 2.5
+        },
+        "PLN": {},
+        "BRL": {},
+        "JPY": {},
+        "NZD": {
+          "minimumStake": 0.25
+        },
+        "INR": {},
+        "HUF": {}
+      },
+      "volatility": ["High"],
+      "provider": ["Pragmatic"]
+    },
+    "ElDoradoInfinityReels": {
+      "name": "ElDoradoInfinityReels",
+      "displayName": "El Dorado Infinity Reels",
+      "playURL": "/games/eldoradoinfinityreels/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/eldoradoinfinityreels",
+      "calloutText": "NEW GAME",
+      "currencyData": {
+        "EUR": {
+          "minimumStake": 0.1
+        },
+        "GBP": {
+          "minimumStake": 0.1
+        },
+        "SEK": {
+          "minimumStake": 1.0
+        },
+        "PLN": {
+          "minimumStake": 0.1
+        },
+        "BRL": {
+          "minimumStake": 0.1
+        },
+        "JPY": {
+          "minimumStake": 0
+        },
+        "NZD": {
+          "minimumStake": 0.1
+        },
+        "INR": {
+          "minimumStake": 0.1
+        },
+        "HUF": {
+          "minimumStake": 0.1
+        }
+      },
+      "provider": ["Yggdrasil"]
+    },
+    "BookOfCrazyChicken": {
+      "name": "BookOfCrazyChicken",
+      "displayName": "Book of Crazy Chicken",
+      "playURL": "/games/bookofcrazychicken/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/bookofcrazychicken",
+      "calloutText": "New Game",
+      "currencyData": {
+        "EUR": {
+          "minimumStake": 0.05
+        }
+      },
+      "volatility": ["High"],
+      "provider": ["Gamomat"]
+    },
+    "WingsOfRiches": {
+      "name": "WingsOfRiches",
+      "displayName": "Wings of Riches",
+      "playURL": "/games/wingsofriches/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/wingsofriches",
+      "currencyData": {
+        "EUR": {
+          "minimumStake": 0.2
+        },
+        "GBP": {
+          "minimumStake": 0.2
+        },
+        "SEK": {
+          "minimumStake": 2.0
+        },
+        "PLN": {},
+        "BRL": {},
+        "NZD": {
+          "minimumStake": 0.2
+        },
+        "INR": {},
+        "HUF": {}
+      },
+      "volatility": ["Low"],
+      "provider": ["Netent"]
+    },
+    "FloatingDragon": {
+      "name": "FloatingDragon",
+      "displayName": "Floating Dragon",
+      "playURL": "/games/floatingdragon/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/floatingdragon",
+      "calloutText": "New Game",
+      "currencyData": {
+        "EUR": {
+          "minimumStake": 0.1
+        },
+        "GBP": {
+          "minimumStake": 0.1
+        },
+        "SEK": {
+          "minimumStake": 10.0
+        },
+        "PLN": {},
+        "BRL": {},
+        "JPY": {},
+        "NZD": {
+          "minimumStake": 0.1
+        },
+        "INR": {},
+        "HUF": {}
+      },
+      "volatility": ["Extreme"],
+      "provider": ["Pragmatic"]
+    },
+    "MysticWheel": {
+      "name": "MysticWheel",
+      "displayName": "Mystic Wheel",
+      "playURL": "/games/mysticwheel/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/mysticwheel",
+      "currencyData": {
+        "EUR": {
+          "minimumStake": 0.1
+        },
+        "GBP": {
+          "minimumStake": 0.1
+        },
+        "SEK": {
+          "minimumStake": 1.0
+        },
+        "PLN": {},
+        "CAD": {},
+        "NZD": {
+          "minimumStake": 0.1
+        },
+        "INR": {},
+        "HUF": {}
+      },
+      "volatility": ["High"],
+      "provider": ["RedTiger"]
+    },
+    "CazinoCosmos": {
+      "name": "CazinoCosmos",
+      "displayName": "Cazino Cosmos",
+      "playURL": "/games/cazinocosmos/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/cazinocosmos",
+      "currencyData": {
+        "CHF": {},
+        "MXN": {},
+        "EUR": {
+          "minimumStake": 0.2
+        },
+        "GBP": {
+          "minimumStake": 0.2
+        },
+        "SEK": {
+          "minimumStake": 2.0
+        },
+        "PLN": {},
+        "BRL": {},
+        "JPY": {},
+        "INR": {},
+        "NZD": {
+          "minimumStake": 0.2
+        },
+        "CAD": {},
+        "HUF": {}
+      },
+      "volatility": ["Extreme"],
+      "provider": ["Yggdrasil"]
+    },
+    "BigBadWolfChristmasSpecial": {
+      "name": "BigBadWolfChristmasSpecial",
+      "displayName": "Big Bad Wolf Christmas Special",
+      "playURL": "/games/bigbadwolfchristmasspecial/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/bigbadwolfchristmasspecial",
+      "currencyData": {
+        "EUR": {
+          "minimumStake": 0.25
+        },
+        "GBP": {
+          "minimumStake": 0.25
+        },
+        "SEK": {
+          "minimumStake": 2.5
+        },
+        "BRL": {},
+        "JPY": {},
+        "NZD": {
+          "minimumStake": 0.25
+        },
+        "INR": {},
+        "HUF": {}
+      },
+      "volatility": ["High"],
+      "provider": ["Quickspin"]
+    },
+    "EasternGoldDeluxe": {
+      "name": "EasternGoldDeluxe",
+      "displayName": "Eastern Gold Deluxe",
+      "playURL": "/games/easterngolddeluxe/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/easterngolddeluxe",
+      "calloutText": "Premiere",
+      "currencyData": {
+        "EUR": {},
+        "GBP": {},
+        "PLN": {},
+        "BRL": {},
+        "JPY": {},
+        "INR": {},
+        "NZD": {},
+        "HUF": {}
+      },
+      "provider": ["RedTiger"]
+    },
+    "LiveDoubleBallRoulette": {
+      "name": "LiveDoubleBallRoulette",
+      "displayName": "Live Double Ball Roulette",
+      "playURL": "/games/live-doubleballroulette/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/live-doubleballroulette",
+      "currencyData": {
+        "CHF": {},
+        "EUR": {},
+        "GBP": {},
+        "SEK": {},
+        "PLN": {},
+        "BRL": {},
+        "JPY": {},
+        "CAD": {},
+        "INR": {},
+        "NZD": {},
+        "HUF": {}
+      },
+      "volatility": ["Medium"],
+      "provider": ["Evolution"]
+    },
+    "EyeOfHorusMegaways": {
+      "name": "EyeOfHorusMegaways",
+      "displayName": "Eye of Horus Megaways",
+      "playURL": "/games/eyeofhorusmegaways/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/eyeofhorusmegaways",
+      "currencyData": {
+        "EUR": {},
+        "GBP": {},
+        "PLN": {},
+        "CAD": {},
+        "NZD": {},
+        "INR": {},
+        "HUF": {}
+      },
+      "provider": ["Blueprint"]
+    },
+    "BullFever": {
+      "name": "BullFever",
+      "displayName": "Bull Fever",
+      "playURL": "/games/bullfever/play",
+      "image": "/cms/60ab775b27abe0002aea19c9/icon-320by250_BullFever.jpg",
+      "detailURL": "/games/bullfever",
+      "currencyData": {
+        "EUR": {
+          "minimumStake": 0.5
+        },
+        "GBP": {
+          "minimumStake": 0.5
+        },
+        "INR": {}
+      }
+    },
+    "MerlinsMagicMirror": {
+      "name": "MerlinsMagicMirror",
+      "displayName": "Merlin's Magic Mirror",
+      "playURL": "/games/merlinsmagicmirror/play",
+      "image": "/cms/5d319890dddc67002e3b1618/Icon-320and250_MerlinsMagicMirror.jpg",
+      "detailURL": "/games/merlinsmagicmirror",
+      "currencyData": {
+        "EUR": {
+          "minimumStake": 0.2
+        },
+        "GBP": {
+          "minimumStake": 0.2
+        },
+        "PLN": {},
+        "JPY": {},
+        "CAD": {},
+        "INR": {},
+        "NZD": {
+          "minimumStake": 0.2
+        },
+        "HUF": {}
+      },
+      "volatility": ["Medium"],
+      "provider": ["iSoftBet"]
+    },
+    "BreakTheBankAgain": {
+      "name": "BreakTheBankAgain",
+      "displayName": "Break Da Bank Again",
+      "playURL": "/games/breakdabankagain/play",
+      "image": "./../assets/images/dummy.png",
+      "detailURL": "/games/breakdabankagain",
+      "currencyData": {
+        "CHF": {},
+        "EUR": {
+          "minimumStake": 0.09
+        },
+        "GBP": {
+          "minimumStake": 0.09
+        },
+        "SEK": {
+          "minimumStake": 0.9,
+          "noDesk": true,
+          "noMob": true
+        },
+        "CAD": {},
+        "NZD": {
+          "minimumStake": 0.09
+        }
+      },
+      "volatility": ["Medium"],
+      "provider": ["Microgaming"]
+    }
+  }
+]

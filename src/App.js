@@ -1,14 +1,11 @@
 import React from "react";
 import "./app.scss";
-
-import Arrow from "./components/sharedUI/arrows/arrow";
-import Button from "./components/sharedUI/button/button";
+import Games from "./atomicDesignComponents/pages/games";
 
 function App() {
   return (
-    <div className="headerWrapper">
-      <h1>LOTTOLAND GAMES</h1>
-      <Button text="SORT GAMES"/>
+    <div className="container">
+      <Games />
     </div>
   );
 }

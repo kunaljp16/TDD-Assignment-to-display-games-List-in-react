@@ -1,4 +1,4 @@
-import { shallow, mount } from "enzyme";
+import { shallow } from "enzyme";
 import Arrow from "./../atomicDesignComponents/atoms/arrows/arrow";
 
 describe("Arrow component", () => {

@@ -1,4 +1,4 @@
-import { shallow, mount } from "enzyme";
+import { shallow } from "enzyme";
 import RadioButton from "./../atomicDesignComponents/atoms/radioButton/radioButton";
 
 describe("RadioButton component", () => {
