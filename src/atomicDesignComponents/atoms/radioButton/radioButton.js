@@ -1,9 +1,15 @@
+import React, { useContext } from "react";
+import { FilterButtonContext } from "./../../pages/games";
+
 import "./radioButton.scss";
 
 function RadioButton(props) {
+
+  const { fnToSetRadioOptionSelected } = useContext(FilterButtonContext);
+
   const radioChangeFn = (e) => {
     const { id } = e.currentTarget;
-    props.radioChangeHandler(id);
+    fnToSetRadioOptionSelected(id);
   };
 
   return (

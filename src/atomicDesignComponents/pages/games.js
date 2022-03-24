@@ -1,18 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, createContext } from "react";
 import { radioOption } from "./../../interface/radioOption";
 import { gameObjInterface } from "./../../interface/gameObjInterface";
 import Header from "./../molecules/header/header";
 import ListGroup from "./../template/listGroup/listGroup";
 import JSONData from "./../../data/data.json";
 
+export const FilterButtonContext = createContext(null);
+
 function Games() {
-  let [dropdownStatus, setDropDownStatus] = useState(radioOption.character);
-  let filterGameArray = [];
-  let gameItemArray = [];
-  let gameObj = {};
-  const getDropdownValue = function (value) {
-    return setDropDownStatus(value);
+
+  const [radioOptionSelected, setRadioOptionSelected] = useState(radioOption.character);
+  const fnToSetRadioOptionSelected = (radio) => {
+    return setRadioOptionSelected(radio);
   };
+  
+  const [isPanelOpen, setIsPanelOpen] = useState(false);
+  const fnToSetIsPanelOpen = () => {
+    setIsPanelOpen((isPanelOpen) => !isPanelOpen);
+  };
+
+  let sortedGamesArray = [];
+  let gamesArray = [];
+  let gameObj = {};
 
   const iterateGames = (obj) => {
     const iterate = (obj) => {
@@ -47,7 +56,7 @@ function Games() {
         gameObj.provider != null &&
         gameObj.minimumStake != null
       ) {
-        gameItemArray.push(gameObj);
+        gamesArray.push(gameObj);
         gameObj = {};
       }
     };
@@ -56,19 +65,20 @@ function Games() {
 
   iterateGames(JSONData);
 
-  if (dropdownStatus === radioOption.minToMaxStake) {
-    filterGameArray = gameItemArray.sort((a, b) => {
+  if (radioOptionSelected === radioOption.minToMaxStake) {
+    sortedGamesArray = gamesArray.sort((a, b) => {
       return a.minimumStake - b.minimumStake;
     });
   }
 
-  if (dropdownStatus === radioOption.maxToMinStake) {
-    filterGameArray = gameItemArray.sort((a, b) => {
+  if (radioOptionSelected === radioOption.maxToMinStake) {
+    sortedGamesArray = gamesArray.sort((a, b) => {
       return b.minimumStake - a.minimumStake;
     });
   }
-  if (dropdownStatus === radioOption.character) {
-    filterGameArray = gameItemArray.sort(function (a, b) {
+
+  if (radioOptionSelected === radioOption.character) {
+    sortedGamesArray = gamesArray.sort(function (a, b) {
       return a[gameObjInterface.displayName] > b[gameObjInterface.displayName]
         ? 1
         : a[gameObjInterface.displayName] < b[gameObjInterface.displayName]
@@ -79,8 +89,10 @@ function Games() {
 
   return (
     <div>
-      <Header />
-      <ListGroup gameData={gameItemArray} />
+      <FilterButtonContext.Provider value={{radioOptionSelected, isPanelOpen, fnToSetRadioOptionSelected, fnToSetIsPanelOpen}}>
+        <Header />
+        <ListGroup gameData={sortedGamesArray} />
+      </FilterButtonContext.Provider>
     </div>
   );
 }

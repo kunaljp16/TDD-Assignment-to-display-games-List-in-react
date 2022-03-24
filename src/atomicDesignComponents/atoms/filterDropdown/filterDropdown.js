@@ -1,27 +1,24 @@
 import "./filterDropdown.scss";
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import RadioButtonGroup from "./../../molecules/radioButtonGroup/radioButtonGroup";
 import Arrow from "../arrows/arrow";
+import { FilterButtonContext } from "./../../pages/games";
 
 function Dropdown(props) {
-  let [isPanelOpen, setIsPanelOpen] = useState(false);
+  const { isPanelOpen, fnToSetIsPanelOpen } = useContext(FilterButtonContext);
 
-  const togglePanelHandler = function () {
-    isPanelOpen = !isPanelOpen;
-    return setIsPanelOpen(isPanelOpen);
-  };
   return (
     <div className="positionRelative">
       <button
         className={isPanelOpen ? "expandedButton filterButton" : "filterButton"}
-        onClick={togglePanelHandler}
+        onClick={fnToSetIsPanelOpen}
       >
         <Arrow direction={isPanelOpen ? "up" : "down"} />
         {props.text}
       </button>
       {isPanelOpen && (
         <div className="panelExpanded">
-          <RadioButtonGroup togglePanelHandler={togglePanelHandler} />
+          <RadioButtonGroup />
         </div>
       )}
     </div>

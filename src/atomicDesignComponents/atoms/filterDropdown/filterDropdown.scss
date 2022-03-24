@@ -1,8 +1,8 @@
 @import "./../../../assets/scss/colors";
 
 .filterButton {
-  display: inline-block;
   background: $navyBlue;
+  display: inline-block;
   border-radius: 4px;
   text-align: left;
   font-style: normal;
@@ -21,9 +21,7 @@
     border-style: none;
   }
 }
-.positionRelative {
-  position: relative;
-}
+
 
 .expandedButton {
   width: 272px;

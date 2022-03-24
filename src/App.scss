@@ -1,8 +1,13 @@
 @import "./assets/scss/_normalize.scss";
+@import "./assets/scss/_genericClass.scss";
 @import "./assets/fonts/_daxlineFontFace.scss";
 @import "./assets/scss/_colors.scss";
 
-.headerWrapper {
-  border-bottom: 1px solid $lightGray3_rgba;
-  margin: 0 21px;
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: auto;
+    margin: 0 12px;
+  }
 }

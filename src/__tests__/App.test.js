@@ -1,11 +1,8 @@
-import { shallow } from 'enzyme';
+import { shallow } from "enzyme";
 import App from "../app";
 
 describe("app component", () => {
-  it("should render h1", () => {
+  it("should render app", () => {
     const wrapper = shallow(<App />);
-    const heading = wrapper.find('h1');
-    expect(heading.length).toBe(1);
   });
- 
 });

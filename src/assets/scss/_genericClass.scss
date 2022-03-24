@@ -1,0 +1,12 @@
+@import "./colors";
+
+html,
+body {
+  background: linear-gradient(90deg, $blue1 0%, $blue2 100%);
+  font-family: "DaxlinePro", arial;
+  background-attachment: fixed;
+}
+
+.positionRelative {
+  position: relative;
+}
