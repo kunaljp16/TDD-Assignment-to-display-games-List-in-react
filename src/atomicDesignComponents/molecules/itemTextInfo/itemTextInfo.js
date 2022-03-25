@@ -4,12 +4,10 @@ import "./itemTextInfo.scss";
 
 function ItemTextInfo(props) {
   return (
-    <div>
-      <div className="itemTextInfo">
-        <P text={props.provider} />
-        <H5 text={props.displayName} />
-        <P text={"€" + props.minimumStake + " min. Stake"} />
-      </div>
+    <div className="itemTextInfo">
+      <P text={props.provider} />
+      <H5 text={props.displayName} />
+      <P text={"€" + props.minimumStake + " min. Stake"} />
     </div>
   );
 }

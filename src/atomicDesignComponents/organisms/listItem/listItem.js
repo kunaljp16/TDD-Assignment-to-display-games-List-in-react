@@ -7,7 +7,9 @@ function ListItem(props) {
     <div className="listItemWrapper" role="listitem">
       <div className="listItem">
         <Description gameData={props.gameData} />
-        <Button text="PLAY" />
+        <div className="buttonWrapper">
+          <Button text="PLAY" />
+        </div>
       </div>
     </div>
   );

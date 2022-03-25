@@ -13,10 +13,14 @@
   padding: 21px 21px 0;
   margin-bottom: 21px;
 
-  button {
-    display: none;
-    @media (min-width: 320px) and (max-width: 768px) {
-      display: block;
+  .buttonWrapper {
+    min-width: 82px;
+
+    button {
+      display: none;
+      @media (min-width: 320px) and (max-width: 768px) {
+        display: block;
+      }
     }
   }
 
@@ -44,7 +48,6 @@
 }
 
 .listItem {
-  height: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;

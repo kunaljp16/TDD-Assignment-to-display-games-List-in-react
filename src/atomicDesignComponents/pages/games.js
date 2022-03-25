@@ -1,11 +1,11 @@
-import React, { useState, createContext } from "react";
+import React, { Fragment, useState, createContext } from "react";
 import { radioOption } from "./../../interface/radioOption";
 import { gameObjInterface } from "./../../interface/gameObjInterface";
 import Header from "./../molecules/header/header";
 import ListGroup from "./../template/listGroup/listGroup";
 import JSONData from "./../../data/data.json";
 
-export const FilterButtonContext = createContext('');
+export const FilterButtonContext = createContext("");
 
 function Games() {
   const [radioOptionSelected, setRadioOptionSelected] = useState(
@@ -60,7 +60,7 @@ function Games() {
       gameObj = {};
     }
   };
-  
+
   iterate(JSONData);
 
   if (radioOptionSelected === radioOption.minToMaxStake) {
@@ -86,7 +86,7 @@ function Games() {
   }
 
   return (
-    <div>
+    <Fragment>
       <FilterButtonContext.Provider
         value={{
           radioOptionSelected,
@@ -98,7 +98,7 @@ function Games() {
         <Header />
         <ListGroup gameData={sortedGamesArray} />
       </FilterButtonContext.Provider>
-    </div>
+    </Fragment>
   );
 }
 

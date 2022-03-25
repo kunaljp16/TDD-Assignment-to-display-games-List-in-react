@@ -1,4 +1,4 @@
-import { shallow, mount } from "enzyme";
+import { shallow } from "enzyme";
 import Description from "./../atomicDesignComponents/organisms/description/description";
 
 describe("Description", () => {
@@ -17,7 +17,7 @@ describe("Description", () => {
         minimumStake: "0.25",
       },
     ];
-    const wrapper = mount(<Description gameData={gameObjData} />);
+    const wrapper = shallow(<Description gameData={gameObjData} />);
     const itemImage = wrapper.find("ItemImage");
     expect(itemImage).toHaveLength(1);
 
