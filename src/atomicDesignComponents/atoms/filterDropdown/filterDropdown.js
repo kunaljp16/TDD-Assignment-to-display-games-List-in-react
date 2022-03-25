@@ -1,10 +1,10 @@
 import "./filterDropdown.scss";
 import React, { useContext } from "react";
-import RadioButtonGroup from "./../../molecules/radioButtonGroup/radioButtonGroup";
+import RadioButtonGroup from "../../molecules/radioButtonGroup/radioButtonGroup";
 import Arrow from "../arrows/arrow";
-import { FilterButtonContext } from "./../../pages/games";
+import { FilterButtonContext } from "../../pages/games";
 
-function Dropdown(props) {
+function FilterDropdown(props) {
   const { isPanelOpen, fnToSetIsPanelOpen } = useContext(FilterButtonContext);
 
   return (
@@ -25,4 +25,4 @@ function Dropdown(props) {
   );
 }
 
-export default Dropdown;
+export default FilterDropdown;
