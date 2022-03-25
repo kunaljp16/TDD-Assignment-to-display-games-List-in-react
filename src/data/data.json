@@ -4,7 +4,7 @@
       "name": "LuckyWizard",
       "displayName": "Lucky Wizard",
       "playURL": "/games/luckywizard/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Lucky Wizard",
       "detailURL": "/games/luckywizard",
       "currencyData": {
         "CHF": {
@@ -36,7 +36,7 @@
       "name": "GreekGods",
       "displayName": "Greek Gods",
       "playURL": "/games/greekgods/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Greek Gods",
       "detailURL": "/games/greekgods",
       "currencyData": {
         "EUR": {
@@ -64,7 +64,7 @@
       "name": "ElDoradoInfinityReels",
       "displayName": "El Dorado Infinity Reels",
       "playURL": "/games/eldoradoinfinityreels/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=El Dorado Infinity Reels",
       "detailURL": "/games/eldoradoinfinityreels",
       "calloutText": "NEW GAME",
       "currencyData": {
@@ -102,7 +102,7 @@
       "name": "BookOfCrazyChicken",
       "displayName": "Book of Crazy Chicken",
       "playURL": "/games/bookofcrazychicken/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Book of Crazy Chicken",
       "detailURL": "/games/bookofcrazychicken",
       "calloutText": "New Game",
       "currencyData": {
@@ -117,7 +117,7 @@
       "name": "WingsOfRiches",
       "displayName": "Wings of Riches",
       "playURL": "/games/wingsofriches/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Wings of Riches",
       "detailURL": "/games/wingsofriches",
       "currencyData": {
         "EUR": {
@@ -144,7 +144,7 @@
       "name": "FloatingDragon",
       "displayName": "Floating Dragon",
       "playURL": "/games/floatingdragon/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Floating Dragon",
       "detailURL": "/games/floatingdragon",
       "calloutText": "New Game",
       "currencyData": {
@@ -173,7 +173,7 @@
       "name": "MysticWheel",
       "displayName": "Mystic Wheel",
       "playURL": "/games/mysticwheel/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Mystic Wheel",
       "detailURL": "/games/mysticwheel",
       "currencyData": {
         "EUR": {
@@ -200,7 +200,7 @@
       "name": "CazinoCosmos",
       "displayName": "Cazino Cosmos",
       "playURL": "/games/cazinocosmos/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=",
       "detailURL": "/games/cazinocosmos",
       "currencyData": {
         "CHF": {},
@@ -231,7 +231,7 @@
       "name": "BigBadWolfChristmasSpecial",
       "displayName": "Big Bad Wolf Christmas Special",
       "playURL": "/games/bigbadwolfchristmasspecial/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Big Bad Wolf Christmas Special",
       "detailURL": "/games/bigbadwolfchristmasspecial",
       "currencyData": {
         "EUR": {
@@ -258,7 +258,7 @@
       "name": "EasternGoldDeluxe",
       "displayName": "Eastern Gold Deluxe",
       "playURL": "/games/easterngolddeluxe/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Eastern Gold Deluxe",
       "detailURL": "/games/easterngolddeluxe",
       "calloutText": "Premiere",
       "currencyData": {
@@ -277,7 +277,7 @@
       "name": "LiveDoubleBallRoulette",
       "displayName": "Live Double Ball Roulette",
       "playURL": "/games/live-doubleballroulette/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Live Double Ball Roulette",
       "detailURL": "/games/live-doubleballroulette",
       "currencyData": {
         "CHF": {},
@@ -299,7 +299,7 @@
       "name": "EyeOfHorusMegaways",
       "displayName": "Eye of Horus Megaways",
       "playURL": "/games/eyeofhorusmegaways/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Eye of Horus Megaways",
       "detailURL": "/games/eyeofhorusmegaways",
       "currencyData": {
         "EUR": {},
@@ -316,7 +316,7 @@
       "name": "BullFever",
       "displayName": "Bull Fever",
       "playURL": "/games/bullfever/play",
-      "image": "/cms/60ab775b27abe0002aea19c9/icon-320by250_BullFever.jpg",
+      "image": "https://via.placeholder.com/264x192.png?text=Bull Fever",
       "detailURL": "/games/bullfever",
       "currencyData": {
         "EUR": {
@@ -332,7 +332,7 @@
       "name": "MerlinsMagicMirror",
       "displayName": "Merlin's Magic Mirror",
       "playURL": "/games/merlinsmagicmirror/play",
-      "image": "/cms/5d319890dddc67002e3b1618/Icon-320and250_MerlinsMagicMirror.jpg",
+      "image": "https://via.placeholder.com/264x192.png?text=Merlin's Magic Mirror",
       "detailURL": "/games/merlinsmagicmirror",
       "currencyData": {
         "EUR": {
@@ -357,7 +357,7 @@
       "name": "BreakTheBankAgain",
       "displayName": "Break Da Bank Again",
       "playURL": "/games/breakdabankagain/play",
-      "image": "./../assets/images/dummy.png",
+      "image": "https://via.placeholder.com/264x192.png?text=Break Da Bank Again",
       "detailURL": "/games/breakdabankagain",
       "currencyData": {
         "CHF": {},

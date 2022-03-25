@@ -23,5 +23,8 @@ describe("Description", () => {
 
     const itemTextInfo = wrapper.find("ItemTextInfo");
     expect(itemTextInfo).toHaveLength(1);
+
+    const InfoIcon = wrapper.find("InfoIcon");
+    expect(InfoIcon).toHaveLength(1);
   });
 });
